@@ -1,1 +1,1 @@
-# ping-pong
+This is a simple ping pong game
