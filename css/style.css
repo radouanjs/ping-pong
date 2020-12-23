@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000d4;
+    font-family: monospace;
+}
+#canva, #help{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+}
+button{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    padding: 5px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+h1{
+   text-align: center;
+   color: #9E9E9E;
+   font-size: 2.8rem;
+   margin-top: 1rem;
+}
+#help{
+    top: 90%;
+    left: 52%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 2.5rem;
+}
+#indication{
+    font-size: 0.8rem;
+}
+
